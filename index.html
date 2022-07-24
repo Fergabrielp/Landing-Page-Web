@@ -9,19 +9,132 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <title>Navbar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>FerDev</title>
   </head>
   <body>
-    <nav>
-      <div class="image">
-        <img src="/img/FerBrand.png" alt="Image brand" />
+    <header id="home">
+      <nav>
+        <div class="image-brand">
+          <img src="/img/FerBrand.png" alt="Image brand" />
+        </div>
+        <ul>
+          <li><a href="#home">INICIO</a></li>
+          <li><a href="#services">SERVICIOS</a></li>
+          <li><a href="#contact">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__text">
+          <h1>SERVICIO PROFESIONAL</h1>
+          <p>
+            Soy un desarrollador freelance con +15 años en el mercado IT,
+            apasionado por la tecnologia, detallista y profesional.
+          </p>
+
+          <p>
+            Te invito a clicker en los siguientes botones si quieres conocer mas
+            sobre mi y mis trabajos.
+          </p>
+          <div class="hero__btns">
+            <button class="hero__btn-1">CONTACTARME</button>
+            <button class="hero__btn-2">VER MAS</button>
+          </div>
+        </div>
+        <div class="hero__img">
+          <img src="./img/hero.svg" alt="img-hero" />
+        </div>
+      </section>
+
+      <section class="short-description">
+        <p>
+          “ La tecnología no es nada. Lo importante es que tengas fe en las
+          personas, que sean básicamente buenas e inteligentes, y si les das
+          herramientas, harán cosas maravillosas con ellas ”
+          <span>- Steve Jobs</span>
+        </p>
+      </section>
+
+      <section id="services" class="advantages">
+        <h1>¿Por que FerDev?</h1>
+        <p>
+          Si deseas obtener desde una landing page simple, hasta aplicaciones
+          web totalmente personalizadas a tus necesidades y por un costo
+          realmente accesible, este es tu lugar.
+        </p>
+        <div class="cards">
+          <div class="card">
+            <img src="./img/custom.svg" alt="" />
+            <h2>PERSONALIZADA</h2>
+            <p class="card-content">
+              Diseño totalmente personalizado a tus necesidades, gustos y
+              requerimientos.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./img/time.svg" alt="" />
+            <h2>SIN DEMORAS</h2>
+            <p class="card-content">
+              Landing pages en menos de 48hs! En caso de necesitar trabajos mas
+              complejos, no dudes en consultar.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./img/security.svg" alt="" />
+            <h2>SEGURA</h2>
+            <p class="card-content">
+              El manejo de altos estandares de seguridad es importante, permite
+              que sus datos esten protegidos y respaldadas las 24hs del dia.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="contact" class="footer-content">
+        <div>
+          <h2>Contáctame</h2>
+          <div class="contact">
+            <div>
+              <h3>CÓRDOBA</h3>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i> Calle Cordobesa 1111
+                </li>
+                <li><i class="fa-solid fa-envelope"></i> email@gmail.com</li>
+                <li><i class="fa-solid fa-phone"></i> +54 111-111111</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>BUENOS AIRES</h3>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i> Calle Bonaerense 2222
+                </li>
+                <li><i class="fa-solid fa-envelope"></i> email@gmail.com</li>
+                <li><i class="fa-solid fa-phone"></i> +54 222-222222</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-img">
+          <img src="./img/contact.svg" alt="footer-image" />
+        </div>
       </div>
-      <ul>
-        <li><a href="">INICIO</a></li>
-        <li><a href="">SERVICIOS</a></li>
-        <li><a href="">CLIENTES</a></li>
-        <li><a href="">CONTACTO</a></li>
-      </ul>
-    </nav>
+      <div class="footer-brand">
+        <img src="./img/FerBrand.png" alt="footer-brand" />
+      </div>
+    </footer>
   </body>
 </html>
